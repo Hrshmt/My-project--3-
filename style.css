@@ -1,0 +1,137 @@
+/* 
+    the color palette is a dark blue (#003b5c) and gold (#ffcc00).
+    the dark blue represents trust, stability, and respect. 
+    gold represents wealth, prosperity, and the importance of the land.
+    this color pallete ensures readability and accessibility for all users.
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9; /* light background for readability */
+  color: #333; /* dark text for contrast */
+  line-height: 1.6;
+}
+
+header {
+  background: #6d037f; /* purple header */
+  color: #ffffff; /* white text for contrast */
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em; /* larger font size for title */
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px; /* space between navigation items */
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s; /* color transition on hover */
+}
+
+nav a:hover {
+  color: #ffcc00; /* color on hover */
+}
+
+main {
+  padding: 20px;
+  max-width: 800px; /* maximum width for main content */
+  margin: 0 auto; /* centering the main content */
+}
+
+h2 {
+  color: #6d037f; /* purple for subheadings */
+  border-bottom: 2px solid #ffcc00;
+  padding-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px; /* spacing between paragraphs */
+}
+
+figure {
+  margin: 30px 0; /* more space around figures */
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  background: #6d037f; /* purple for footer */
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0; /* stick to bottom */
+  width: 100%; /* width footer */
+}
+
+footer a {
+  color: #ffcc00; /* gold for links */
+  text-decoration: none;
+}
+
+div {
+  margin-bottom: 20px; /* space below divs */
+  padding: 10px;
+  background-color: #ffffff; /* white background for content */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* highlight class for emphasis */
+.highlight {
+  background-color: #ffcc00;
+  color: #6d037f; /* dark text for contrast */
+  padding: 2px 4px;
+}
+
+/* smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #6d037f;
+  --accent-color: #ffcc00;
+  --background-color: #f9f9f9;
+  --text-color: #333; /* dark text */
+}
+
+/* responsive adjustments */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em; /* smaller title on small screens */
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0; /* space for vertical items */
+  }
+
+  main {
+    padding: 10px; /* reduced padding on small screens */
+  }
+}
